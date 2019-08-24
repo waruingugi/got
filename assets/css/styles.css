@@ -1,0 +1,104 @@
+#landing-page {
+  background-image:url("../../assets/img/small.jpg");
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  width:100%;
+  height:100vh;
+}
+
+body {
+  background-color:rgb(0,0,0);
+  color:rgb(255,255,255);
+}
+
+#logo {
+  max-height:30px;
+  display:inline-block;
+  color:rgba(255,254,254,0.9);
+}
+
+#top {
+  color:rgb(254,254,254);
+}
+
+.navbar-light .navbar-toggler-icon {
+  color:#ffffff;
+}
+
+.fa.fa-navicon {
+  color:#ffffff;
+  font-size:25px;
+}
+
+#toggle {
+  color:#ffffff;
+  font-size:30px;
+}
+
+#center {
+}
+
+#series-no {
+  border-right:1px solid rgba(255,255,255,0.8);
+}
+
+#series-no h1 {
+  font-size:70px;
+  margin-left:10px;
+  font-family:Federo, sans-serif;
+}
+
+@media (min-width: 768px) {
+  #series-no h1 {
+    font-size:70px;
+    margin-left:25px;
+  }
+}
+
+#series-info {
+  margin:auto 0;
+}
+
+#series {
+  margin-top:6.5vh;
+}
+
+#title {
+  width:600px;
+  height:140px;
+}
+
+@media (max-width: 768px) {
+  #title {
+    width:60vh;
+    height:100px;
+  }
+}
+
+#order-link {
+  border:2px solid white;
+  margin-left:40px;
+}
+
+#link {
+  text-decoration:none;
+}
+
+#content {
+  margin-top:20vh;
+}
+
+@media (min-width: 992px) {
+  #content {
+    margin-top:10%;
+  }
+}
+
+@media (min-width: 768px) {
+  #landing-page {
+    background-image:url("../../assets/img/king_right.jpg");
+    background-position:top;
+  }
+}
+
